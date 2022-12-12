@@ -62,7 +62,6 @@ with preporcessing :
     st.write("""# Preprocessing""")
     st.subheader("""Normalisasi Data""")
     st.write("""Rumus Normalisasi Data :""")
-    st.image('https://i.stack.imgur.com/EuitP.png', use_column_width=False, width=250)
     from PIL import Image
     image = Image.open('rumus.jpeg')
     st.image(image, use_column_width=False, width=250)
